@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		EF41D9CD28351BF2006ADD68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9CC28351BF2006ADD68 /* AppDelegate.swift */; };
 		EF41D9CF28351BF2006ADD68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9CE28351BF2006ADD68 /* SceneDelegate.swift */; };
-		EF41D9D128351BF2006ADD68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9D028351BF2006ADD68 /* ViewController.swift */; };
-		EF41D9D428351BF2006ADD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF41D9D228351BF2006ADD68 /* Main.storyboard */; };
 		EF41D9D628351BF3006ADD68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF41D9D528351BF3006ADD68 /* Assets.xcassets */; };
 		EF41D9D928351BF3006ADD68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF41D9D728351BF3006ADD68 /* LaunchScreen.storyboard */; };
+		EF41D9E728351D04006ADD68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF41D9E628351D04006ADD68 /* Main.storyboard */; };
+		EF41D9E928351D1D006ADD68 /* ConcentrationGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9E828351D1D006ADD68 /* ConcentrationGameViewController.swift */; };
+		EF41D9ED28351D35006ADD68 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9EA28351D34006ADD68 /* Card.swift */; };
+		EF41D9EE28351D35006ADD68 /* GameTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9EB28351D34006ADD68 /* GameTheme.swift */; };
+		EF41D9EF28351D35006ADD68 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF41D9EC28351D34006ADD68 /* ConcentrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF41D9C928351BF2006ADD68 /* cs193p-2017-fall-assigment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs193p-2017-fall-assigment1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF41D9C928351BF2006ADD68 /* cs193p-2017-fall-assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs193p-2017-fall-assignment1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF41D9CC28351BF2006ADD68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF41D9CE28351BF2006ADD68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF41D9D028351BF2006ADD68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF41D9D328351BF2006ADD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF41D9D528351BF3006ADD68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF41D9D828351BF3006ADD68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF41D9DA28351BF3006ADD68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF41D9E628351D04006ADD68 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF41D9E828351D1D006ADD68 /* ConcentrationGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationGameViewController.swift; sourceTree = "<group>"; };
+		EF41D9EA28351D34006ADD68 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		EF41D9EB28351D34006ADD68 /* GameTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTheme.swift; sourceTree = "<group>"; };
+		EF41D9EC28351D34006ADD68 /* ConcentrationGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +46,7 @@
 		EF41D9C028351BF2006ADD68 = {
 			isa = PBXGroup;
 			children = (
-				EF41D9CB28351BF2006ADD68 /* cs193p-2017-fall-assigment1 */,
+				EF41D9CB28351BF2006ADD68 /* cs193p-2017-fall-assignment1 */,
 				EF41D9CA28351BF2006ADD68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +54,66 @@
 		EF41D9CA28351BF2006ADD68 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF41D9C928351BF2006ADD68 /* cs193p-2017-fall-assigment1.app */,
+				EF41D9C928351BF2006ADD68 /* cs193p-2017-fall-assignment1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF41D9CB28351BF2006ADD68 /* cs193p-2017-fall-assigment1 */ = {
+		EF41D9CB28351BF2006ADD68 /* cs193p-2017-fall-assignment1 */ = {
 			isa = PBXGroup;
 			children = (
-				EF41D9CC28351BF2006ADD68 /* AppDelegate.swift */,
-				EF41D9CE28351BF2006ADD68 /* SceneDelegate.swift */,
-				EF41D9D028351BF2006ADD68 /* ViewController.swift */,
-				EF41D9D228351BF2006ADD68 /* Main.storyboard */,
-				EF41D9D528351BF3006ADD68 /* Assets.xcassets */,
+				EF41D9E328351C7B006ADD68 /* SupportingFiles */,
+				EF41D9E228351C6C006ADD68 /* Model */,
+				EF41D9E128351C4F006ADD68 /* ViewController */,
+				EF41D9E028351C42006ADD68 /* View */,
 				EF41D9D728351BF3006ADD68 /* LaunchScreen.storyboard */,
 				EF41D9DA28351BF3006ADD68 /* Info.plist */,
 			);
-			path = "cs193p-2017-fall-assigment1";
+			path = "cs193p-2017-fall-assignment1";
+			sourceTree = "<group>";
+		};
+		EF41D9E028351C42006ADD68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF41D9E628351D04006ADD68 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF41D9E128351C4F006ADD68 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EF41D9E828351D1D006ADD68 /* ConcentrationGameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EF41D9E228351C6C006ADD68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF41D9EA28351D34006ADD68 /* Card.swift */,
+				EF41D9EB28351D34006ADD68 /* GameTheme.swift */,
+				EF41D9EC28351D34006ADD68 /* ConcentrationGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF41D9E328351C7B006ADD68 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EF41D9D528351BF3006ADD68 /* Assets.xcassets */,
+				EF41D9CE28351BF2006ADD68 /* SceneDelegate.swift */,
+				EF41D9CC28351BF2006ADD68 /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF41D9C828351BF2006ADD68 /* cs193p-2017-fall-assigment1 */ = {
+		EF41D9C828351BF2006ADD68 /* cs193p-2017-fall-assignment1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF41D9DD28351BF3006ADD68 /* Build configuration list for PBXNativeTarget "cs193p-2017-fall-assigment1" */;
+			buildConfigurationList = EF41D9DD28351BF3006ADD68 /* Build configuration list for PBXNativeTarget "cs193p-2017-fall-assignment1" */;
 			buildPhases = (
 				EF41D9C528351BF2006ADD68 /* Sources */,
 				EF41D9C628351BF2006ADD68 /* Frameworks */,
@@ -82,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "cs193p-2017-fall-assigment1";
+			name = "cs193p-2017-fall-assignment1";
 			productName = "cs193p-2017-fall-assigment1";
-			productReference = EF41D9C928351BF2006ADD68 /* cs193p-2017-fall-assigment1.app */;
+			productReference = EF41D9C928351BF2006ADD68 /* cs193p-2017-fall-assignment1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF41D9C428351BF2006ADD68 /* Build configuration list for PBXProject "cs193p-2017-fall-assigment1" */;
+			buildConfigurationList = EF41D9C428351BF2006ADD68 /* Build configuration list for PBXProject "cs193p-2017-fall-assignment1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF41D9C828351BF2006ADD68 /* cs193p-2017-fall-assigment1 */,
+				EF41D9C828351BF2006ADD68 /* cs193p-2017-fall-assignment1 */,
 			);
 		};
 /* End PBXProject section */
@@ -127,7 +168,7 @@
 			files = (
 				EF41D9D928351BF3006ADD68 /* LaunchScreen.storyboard in Resources */,
 				EF41D9D628351BF3006ADD68 /* Assets.xcassets in Resources */,
-				EF41D9D428351BF2006ADD68 /* Main.storyboard in Resources */,
+				EF41D9E728351D04006ADD68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF41D9D128351BF2006ADD68 /* ViewController.swift in Sources */,
+				EF41D9E928351D1D006ADD68 /* ConcentrationGameViewController.swift in Sources */,
+				EF41D9EE28351D35006ADD68 /* GameTheme.swift in Sources */,
 				EF41D9CD28351BF2006ADD68 /* AppDelegate.swift in Sources */,
+				EF41D9EF28351D35006ADD68 /* ConcentrationGame.swift in Sources */,
 				EF41D9CF28351BF2006ADD68 /* SceneDelegate.swift in Sources */,
+				EF41D9ED28351D35006ADD68 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF41D9D228351BF2006ADD68 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF41D9D328351BF2006ADD68 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF41D9D728351BF3006ADD68 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,18 +325,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N4F7RVH5TU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "cs193p-2017-fall-assigment1/Info.plist";
+				INFOPLIST_FILE = "cs193p-2017-fall-assignment1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ksurikova.cs193p-2017-fall-assigment1";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksurikova.cs193p-2017-fall-assignment1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,18 +354,19 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N4F7RVH5TU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "cs193p-2017-fall-assigment1/Info.plist";
+				INFOPLIST_FILE = "cs193p-2017-fall-assignment1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ksurikova.cs193p-2017-fall-assigment1";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksurikova.cs193p-2017-fall-assignment1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +377,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF41D9C428351BF2006ADD68 /* Build configuration list for PBXProject "cs193p-2017-fall-assigment1" */ = {
+		EF41D9C428351BF2006ADD68 /* Build configuration list for PBXProject "cs193p-2017-fall-assignment1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF41D9DB28351BF3006ADD68 /* Debug */,
@@ -348,7 +386,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF41D9DD28351BF3006ADD68 /* Build configuration list for PBXNativeTarget "cs193p-2017-fall-assigment1" */ = {
+		EF41D9DD28351BF3006ADD68 /* Build configuration list for PBXNativeTarget "cs193p-2017-fall-assignment1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF41D9DE28351BF3006ADD68 /* Debug */,
